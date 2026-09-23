@@ -4,18 +4,6 @@ A modern, accessibility-first mobile UI redesign for **Ayuxa Patient & Family** 
 
 ---
 
-## 🎨 5 Showcase Mobile Screens
-
-<p fill="center">
-  <img src="assets/screen_1_home_dashboard.jpg" width="19%" alt="Home Dashboard" />
-  <img src="assets/screen_2_caregiver_booking.jpg" width="19%" alt="Caregiver Booking" />
-  <img src="assets/screen_3_vitals_tracker.jpg" width="19%" alt="Vitals Tracker" />
-  <img src="assets/screen_4_lab_diagnostics.jpg" width="19%" alt="Lab Diagnostics" />
-  <img src="assets/screen_5_emergency_concierge.jpg" width="19%" alt="Emergency Concierge" />
-</p>
-
----
-
 ## 🚀 Live Demo & Figma Files
 
 * **Live Interactive Web Prototype**: Open `index.html` or view on GitHub Pages.
@@ -24,7 +12,7 @@ A modern, accessibility-first mobile UI redesign for **Ayuxa Patient & Family** 
 
 ---
 
-## 📱 Screen Descriptions
+## 📱 5 Showcase Mobile Screens Overview
 
 1. **Home Family Dashboard**: Live health status banner ("Vitals are Stable"), active caregiver shift card (Sarah RN), 1-tap quick action cards with high-contrast icons, 24/7 floating SOS button.
 2. **Book Verified Caregiver**: Category filter tabs (Home Nurse, Attendant, Physio), caregiver profile cards with verified badges, hourly/daily pricing (`₹800 / 12 hr`), experience badges.
