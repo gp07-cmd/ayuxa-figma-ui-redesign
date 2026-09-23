@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2050 950" width="2050" height="950" style="background-color: #0B0F19; font-family: system-ui, -apple-system, sans-serif;">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="sosGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#EF4444" flood-opacity="0.5"/>
+    </filter>
+    <linearGradient id="primaryGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="50" y="50" fill="#FFFFFF" font-size="24" font-weight="800">Ayuxa Patient &amp; Family — 5 Mobile Screen Figma Showcase</text>
+  <text x="50" y="75" fill="#94A3B8" font-size="14">Figma Compatible Editable Vector Screens (Drag &amp; drop file directly into Figma canvas)</text>
+
+  <!-- SCREEN 1: HOME DASHBOARD (X: 40) -->
+  <g id="Screen_1_Home_Dashboard" transform="translate(40, 110)">
+    <rect width="360" height="760" rx="32" fill="#F8FAFC" stroke="#334155" stroke-width="4"/>
+    <text x="24" y="32" fill="#0F172A" font-size="12" font-weight="600">09:41</text>
+    <text x="20" y="65" fill="#64748B" font-size="11" font-weight="700">FAMILY DASHBOARD</text>
+    <text x="20" y="88" fill="#0F172A" font-size="18" font-weight="800">Good Morning, Priya!</text>
+    <rect x="215" y="65" width="125" height="28" rx="14" fill="#CCFBF1"/>
+    <circle cx="227" cy="79" r="4" fill="#059669"/>
+    <text x="237" y="83" fill="#0F766E" font-size="11" font-weight="700">Grandpa Ramesh</text>
+
+    <!-- Status Card -->
+    <rect x="20" y="108" width="320" height="110" rx="16" fill="url(#primaryGrad)" filter="url(#cardShadow)"/>
+    <text x="32" y="156" fill="#FFFFFF" font-size="16" font-weight="800">Vitals are Stable Today</text>
+    <text x="32" y="172" fill="#CCFBF1" font-size="11">Last checked 15m ago by Sarah RN</text>
+
+    <!-- Active Caregiver Card -->
+    <rect x="20" y="234" width="320" height="115" rx="16" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <text x="42" y="255" fill="#0F172A" font-size="12" font-weight="800">Active Caregiver On Duty</text>
+    <circle cx="48" cy="295" r="20" fill="#0D9488"/>
+    <text x="40" y="300" fill="#FFFFFF" font-size="12" font-weight="800">SJ</text>
+    <text x="78" y="290" fill="#0F172A" font-size="14" font-weight="800">Sarah Jenkins, RN</text>
+
+    <text x="20" y="372" fill="#0F172A" font-size="13" font-weight="800">Quick Services</text>
+
+    <!-- Quick Tile 1: Book Caregiver (WITH VISIBLE SVG VECTOR ICON) -->
+    <rect x="20" y="384" width="152" height="92" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <rect x="32" y="396" width="36" height="36" rx="10" fill="#CCFBF1"/>
+    <!-- Nurse Vector Icon -->
+    <circle cx="50" cy="408" r="6" fill="#0D9488"/>
+    <path d="M40 424 C40 417 44 414 50 414 C56 414 60 417 60 424 Z" fill="#0D9488"/>
+    <text x="32" y="452" fill="#0F172A" font-size="12" font-weight="800">Book Caregiver</text>
+    <text x="32" y="465" fill="#64748B" font-size="10">Nurses &amp; Attendants</text>
+
+    <!-- Quick Tile 2: At-Home Labs (WITH VISIBLE SVG VECTOR ICON) -->
+    <rect x="188" y="384" width="152" height="92" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <rect x="200" y="396" width="36" height="36" rx="10" fill="#DCFCE7"/>
+    <!-- Lab Flask Vector Icon -->
+    <path d="M214 404 L222 404 M218 404 L218 412 L212 424 L224 424 L218 412" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="200" y="452" fill="#0F172A" font-size="12" font-weight="800">At-Home Labs</text>
+    <text x="200" y="465" fill="#64748B" font-size="10">Blood tests &amp; ECG</text>
+
+    <!-- Floating Emergency SOS Button -->
+    <circle cx="310" cy="670" r="28" fill="#EF4444" filter="url(#sosGlow)"/>
+    <text x="296" y="668" fill="#FFFFFF" font-size="10" font-weight="800">24/7</text>
+    <text x="294" y="680" fill="#FFFFFF" font-size="12" font-weight="900">SOS</text>
+  </g>
+
+  <!-- SCREEN 2: CAREGIVER BOOKING (X: 430) -->
+  <g id="Screen_2_Caregiver_Booking" transform="translate(430, 110)">
+    <rect width="360" height="760" rx="32" fill="#F8FAFC" stroke="#334155" stroke-width="4"/>
+    <text x="24" y="32" fill="#0F172A" font-size="12" font-weight="600">09:41</text>
+    <text x="20" y="65" fill="#0F172A" font-size="16" font-weight="800">Book Verified Caregiver</text>
+
+    <rect x="20" y="85" width="320" height="34" rx="10" fill="#E2E8F0"/>
+    <rect x="23" y="88" width="102" height="28" rx="8" fill="#FFFFFF"/>
+    <text x="35" y="106" fill="#0F172A" font-size="11" font-weight="800">Home Nurse</text>
+    <text x="145" y="106" fill="#64748B" font-size="11">Attendant</text>
+
+    <rect x="20" y="132" width="320" height="150" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="80" y="160" fill="#0F172A" font-size="14" font-weight="800">Sarah Jenkins, RN</text>
+    <text x="80" y="176" fill="#64748B" font-size="11">ICU &amp; Cardiac Specialist</text>
+    <text x="32" y="242" fill="#0F172A" font-size="16" font-weight="900">₹800 <tspan fill="#64748B" font-size="11">/ 12 hr</tspan></text>
+    <rect x="210" y="222" width="118" height="34" rx="10" fill="#0D9488"/>
+    <text x="228" y="243" fill="#FFFFFF" font-size="11" font-weight="800">Select Schedule</text>
+  </g>
+
+  <!-- SCREEN 3: VITALS TRACKER (X: 820) -->
+  <g id="Screen_3_Vitals_Tracker" transform="translate(820, 110)">
+    <rect width="360" height="760" rx="32" fill="#0F172A" stroke="#334155" stroke-width="4"/>
+    <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="600">09:41</text>
+    <text x="20" y="65" fill="#FFFFFF" font-size="16" font-weight="800">Vitals Tracker (Dark)</text>
+
+    <rect x="20" y="90" width="152" height="75" rx="14" fill="#1E293B"/>
+    <text x="32" y="110" fill="#94A3B8" font-size="10">Blood Pressure</text>
+    <text x="32" y="132" fill="#FFFFFF" font-size="16" font-weight="900">120/80</text>
+
+    <rect x="188" y="90" width="152" height="75" rx="14" fill="#1E293B"/>
+    <text x="200" y="110" fill="#94A3B8" font-size="10">SpO2</text>
+    <text x="200" y="132" fill="#FFFFFF" font-size="16" font-weight="900">98%</text>
+
+    <rect x="20" y="265" width="320" height="150" rx="16" fill="#1E293B"/>
+    <text x="32" y="288" fill="#FFFFFF" font-size="12" font-weight="800">24-Hour Heart Rate Trend</text>
+    <path d="M32 370 Q 100 320, 180 350 T 260 310 T 320 340" stroke="#0D9488" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- SCREEN 4: AT-HOME LABS & DIAGNOSTICS (X: 1210) -->
+  <g id="Screen_4_Lab_Diagnostics" transform="translate(1210, 110)">
+    <rect width="360" height="760" rx="32" fill="#F8FAFC" stroke="#334155" stroke-width="4"/>
+    <text x="24" y="32" fill="#0F172A" font-size="12" font-weight="600">09:41</text>
+    <text x="20" y="65" fill="#0F172A" font-size="16" font-weight="800">At-Home Diagnostics</text>
+
+    <rect x="20" y="90" width="320" height="160" rx="16" fill="#0F172A"/>
+    <rect x="32" y="102" width="90" height="18" rx="4" fill="#0D9488"/>
+    <text x="38" y="115" fill="#FFFFFF" font-size="9" font-weight="800">SENIOR SPECIAL</text>
+    <text x="32" y="140" fill="#FFFFFF" font-size="15" font-weight="800">Senior Citizen Complete Package</text>
+    <text x="32" y="158" fill="#94A3B8" font-size="11">64 parameters: CBC, Kidney, Lipid &amp; HbA1c</text>
+    <text x="32" y="225" fill="#2DD4BF" font-size="16" font-weight="900">₹1,499 <tspan fill="#64748B" font-size="12" stroke="none">₹2,999</tspan></text>
+    <rect x="200" y="205" width="128" height="32" rx="10" fill="#0D9488"/>
+    <text x="216" y="225" fill="#FFFFFF" font-size="11" font-weight="800">Book Sample Visit</text>
+  </g>
+
+  <!-- SCREEN 5: 24/7 EMERGENCY CONCIERGE & DOCTOR CONSULT (X: 1600) -->
+  <g id="Screen_5_Emergency_Concierge" transform="translate(1600, 110)">
+    <rect width="360" height="760" rx="32" fill="#0F172A" stroke="#EF4444" stroke-width="4"/>
+    <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="600">09:41</text>
+    <text x="20" y="65" fill="#EF4444" font-size="16" font-weight="900">24/7 Emergency Dispatch</text>
+
+    <rect x="20" y="90" width="320" height="85" rx="16" fill="#450A0A" stroke="#EF4444"/>
+    <circle cx="38" cy="110" r="4" fill="#EF4444"/>
+    <text x="48" y="114" fill="#FCA5A5" font-size="12" font-weight="800">Ambulance Unit 7B Assigned</text>
+    <text x="48" y="132" fill="#FFFFFF" font-size="14" font-weight="900">ETA: 8 mins away</text>
+    <text x="48" y="150" fill="#94A3B8" font-size="11">Driver Hassan Khan • En-route</text>
+
+    <rect x="20" y="190" width="320" height="130" rx="16" fill="#1E293B"/>
+    <text x="32" y="215" fill="#FFFFFF" font-size="12" font-weight="800">24/7 Ayuxa Care Coordinator</text>
+    <circle cx="48" cy="255" r="18" fill="#EF4444"/>
+    <text x="40" y="260" fill="#FFFFFF" font-size="12" font-weight="800">SW</text>
+    <text x="76" y="250" fill="#FFFFFF" font-size="13" font-weight="800">Sarah Williams</text>
+    <text x="76" y="266" fill="#94A3B8" font-size="11">Emergency Hotline Connected</text>
+
+    <rect x="32" y="290" width="135" height="32" rx="10" fill="#0D9488"/>
+    <text x="44" y="310" fill="#FFFFFF" font-size="11" font-weight="800">Doctor Video Call</text>
+
+    <rect x="175" y="290" width="135" height="32" rx="10" fill="#EF4444"/>
+    <text x="195" y="310" fill="#FFFFFF" font-size="11" font-weight="800">Direct Hotline</text>
+  </g>
+</svg>

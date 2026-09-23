@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 760" width="360" height="760" style="background-color: #F8FAFC; font-family: system-ui, -apple-system, sans-serif;">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="sosGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#EF4444" flood-opacity="0.5"/>
+    </filter>
+    <linearGradient id="primaryGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  
+<rect width="360" height="760" rx="32" fill="#F8FAFC" stroke="#334155" stroke-width="4"/>
+<text x="24" y="32" fill="#0F172A" font-size="12" font-weight="600">09:41</text>
+<text x="20" y="65" fill="#64748B" font-size="11" font-weight="700">FAMILY DASHBOARD</text>
+<text x="20" y="88" fill="#0F172A" font-size="18" font-weight="800">Good Morning, Priya!</text>
+<rect x="215" y="65" width="125" height="28" rx="14" fill="#CCFBF1"/>
+<circle cx="227" cy="79" r="4" fill="#059669"/>
+<text x="237" y="83" fill="#0F766E" font-size="11" font-weight="700">Grandpa Ramesh</text>
+<rect x="20" y="108" width="320" height="110" rx="16" fill="url(#primaryGrad)" filter="url(#cardShadow)"/>
+<text x="32" y="156" fill="#FFFFFF" font-size="16" font-weight="800">Vitals are Stable Today</text>
+<text x="32" y="172" fill="#CCFBF1" font-size="11">Last checked 15m ago by Sarah RN</text>
+<rect x="20" y="234" width="320" height="115" rx="16" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+<text x="42" y="255" fill="#0F172A" font-size="12" font-weight="800">Active Caregiver On Duty</text>
+<circle cx="48" cy="295" r="20" fill="#0D9488"/>
+<text x="40" y="300" fill="#FFFFFF" font-size="12" font-weight="800">SJ</text>
+<text x="78" y="290" fill="#0F172A" font-size="14" font-weight="800">Sarah Jenkins, RN</text>
+<text x="78" y="306" fill="#64748B" font-size="11">ICU &amp; Elderly Care • ★ 4.9</text>
+<rect x="20" y="384" width="152" height="85" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+<text x="36" y="445" fill="#0F172A" font-size="12" font-weight="700">Book Caregiver</text>
+<rect x="188" y="384" width="152" height="85" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+<text x="204" y="445" fill="#0F172A" font-size="12" font-weight="700">At-Home Labs</text>
+<circle cx="310" cy="670" r="28" fill="#EF4444" filter="url(#sosGlow)"/>
+<text x="296" y="668" fill="#FFFFFF" font-size="10" font-weight="800">24/7</text>
+<text x="294" y="680" fill="#FFFFFF" font-size="12" font-weight="900">SOS</text>
+
+</svg>

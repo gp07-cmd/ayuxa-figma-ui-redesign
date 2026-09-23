@@ -1,0 +1,100 @@
+{
+  "name": "Ayuxa Patient & Family Design Tokens",
+  "version": "1.0.0",
+  "color": {
+    "primary": {
+      "teal": {
+        "value": "#0D9488",
+        "type": "color"
+      }
+    },
+    "status": {
+      "emerald": {
+        "value": "#059669",
+        "type": "color"
+      },
+      "danger": {
+        "value": "#EF4444",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#F59E0B",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "light": {
+        "value": "#F8FAFC",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#0F172A",
+        "type": "color"
+      },
+      "card_light": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "teal_tint": {
+        "value": "#CCFBF1",
+        "type": "color"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#0F172A",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#64748B",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#94A3B8",
+        "type": "color"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "value": "Inter, sans-serif",
+      "type": "fontFamilies"
+    },
+    "size": {
+      "display": {
+        "value": "22px",
+        "type": "fontSizes"
+      },
+      "header": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "body": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "label": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "micro": {
+        "value": "10px",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "radii": {
+    "card": {
+      "value": "16px",
+      "type": "borderRadius"
+    },
+    "button": {
+      "value": "12px",
+      "type": "borderRadius"
+    },
+    "pill": {
+      "value": "999px",
+      "type": "borderRadius"
+    }
+  }
+}

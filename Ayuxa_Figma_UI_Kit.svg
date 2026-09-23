@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 950" width="1600" height="950" style="background-color: #0B0F19; font-family: system-ui, -apple-system, sans-serif;">
+  <defs>
+    <!-- Shadow Filters -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="sosGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#EF4444" flood-opacity="0.5"/>
+    </filter>
+    
+    <!-- Gradients -->
+    <linearGradient id="primaryGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Header -->
+  <text x="50" y="50" fill="#FFFFFF" font-size="24" font-weight="800">Ayuxa Patient &amp; Family — Figma Mobile UI Kit</text>
+  <text x="50" y="75" fill="#94A3B8" font-size="14">Figma Compatible Vector Boards (Import directly into Figma: File &gt; Place Image/File or drag &amp; drop)</text>
+
+  <!-- SCREEN 1: HOME DASHBOARD (X: 50, Y: 110, W: 360, H: 760) -->
+  <g id="Screen_1_Home_Dashboard" transform="translate(50, 110)">
+    <!-- Phone Container Frame -->
+    <rect width="360" height="760" rx="32" fill="#F8FAFC" stroke="#334155" stroke-width="4"/>
+    
+    <!-- Status Bar -->
+    <text x="24" y="32" fill="#0F172A" font-size="12" font-weight="600">09:41</text>
+    <circle cx="310" cy="28" r="4" fill="#0F172A"/>
+    <rect x="320" y="24" width="16" height="8" rx="2" fill="none" stroke="#0F172A" stroke-width="1.5"/>
+    <rect x="322" y="26" width="10" height="4" rx="1" fill="#0F172A"/>
+
+    <!-- App Header -->
+    <text x="20" y="65" fill="#64748B" font-size="11" font-weight="700" letter-spacing="0.5">FAMILY DASHBOARD</text>
+    <text x="20" y="88" fill="#0F172A" font-size="18" font-weight="800">Good Morning, Priya!</text>
+
+    <!-- Patient Selector Pill -->
+    <rect x="215" y="65" width="125" height="28" rx="14" fill="#CCFBF1" stroke="#99F6E4"/>
+    <circle cx="227" cy="79" r="4" fill="#059669"/>
+    <text x="237" y="83" fill="#0F766E" font-size="11" font-weight="700">Grandpa Ramesh</text>
+
+    <!-- Live Status Banner -->
+    <rect x="20" y="108" width="320" height="110" rx="16" fill="url(#primaryGrad)" filter="url(#cardShadow)"/>
+    <rect x="32" y="120" width="70" height="18" rx="4" fill="#FFFFFF" fill-opacity="0.2"/>
+    <text x="38" y="133" fill="#FFFFFF" font-size="9" font-weight="800">LIVE STATUS</text>
+    <text x="32" y="156" fill="#FFFFFF" font-size="16" font-weight="800">Vitals are Stable Today</text>
+    <text x="32" y="172" fill="#CCFBF1" font-size="11">Last checked 15m ago by Sarah RN</text>
+
+    <!-- Mini Vitals Strip in Banner -->
+    <rect x="32" y="184" width="85" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+    <text x="40" y="200" fill="#FFFFFF" font-size="10" font-weight="700">72 BPM</text>
+    
+    <rect x="123" y="184" width="95" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+    <text x="131" y="200" fill="#FFFFFF" font-size="10" font-weight="700">BP 120/80</text>
+
+    <rect x="224" y="184" width="85" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.15"/>
+    <text x="232" y="200" fill="#FFFFFF" font-size="10" font-weight="700">SpO2 98%</text>
+
+    <!-- Active Caregiver Card -->
+    <rect x="20" y="234" width="320" height="115" rx="16" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <circle cx="32" cy="252" r="4" fill="#059669"/>
+    <text x="42" y="255" fill="#0F172A" font-size="12" font-weight="800">Active Caregiver On Duty</text>
+    <rect x="230" y="243" width="98" height="18" rx="9" fill="#CCFBF1"/>
+    <text x="238" y="255" fill="#0F766E" font-size="10" font-weight="700">8:00 AM - 4:00 PM</text>
+
+    <!-- Caregiver Info -->
+    <circle cx="48" cy="295" r="20" fill="#0D9488"/>
+    <text x="40" y="300" fill="#FFFFFF" font-size="12" font-weight="800">SJ</text>
+    <text x="78" y="290" fill="#0F172A" font-size="14" font-weight="800">Sarah Jenkins, RN</text>
+    <text x="78" y="306" fill="#64748B" font-size="11">ICU &amp; Elderly Care • ★ 4.9 (124)</text>
+
+    <rect x="285" y="280" width="40" height="30" rx="8" fill="#F0FDF4" stroke="#BBF7D0"/>
+    <path d="M300 290 L310 300 M310 290 L300 300" stroke="#16A34A" stroke-width="2"/>
+
+    <!-- Quick Services Grid Title -->
+    <text x="20" y="372" fill="#0F172A" font-size="13" font-weight="800">Quick Services</text>
+
+    <!-- Quick Tiles -->
+    <rect x="20" y="384" width="152" height="85" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <rect x="32" y="396" width="32" height="32" rx="8" fill="#CCFBF1"/>
+    <text x="36" y="445" fill="#0F172A" font-size="12" font-weight="700">Book Caregiver</text>
+    <text x="36" y="458" fill="#64748B" font-size="10">Nurses &amp; Attendants</text>
+
+    <rect x="188" y="384" width="152" height="85" rx="14" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <rect x="200" y="396" width="32" height="32" rx="8" fill="#DCFCE7"/>
+    <text x="204" y="445" fill="#0F172A" font-size="12" font-weight="700">At-Home Labs</text>
+    <text x="204" y="458" fill="#64748B" font-size="10">Blood tests &amp; ECG</text>
+
+    <!-- Emergency Floating SOS Button -->
+    <circle cx="310" cy="670" r="28" fill="#EF4444" filter="url(#sosGlow)"/>
+    <text x="296" y="668" fill="#FFFFFF" font-size="10" font-weight="800">24/7</text>
+    <text x="294" y="680" fill="#FFFFFF" font-size="12" font-weight="900">SOS</text>
+
+    <!-- Bottom Navigation Bar -->
+    <rect x="0" y="700" width="360" height="60" rx="0" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="50" cy="722" r="12" fill="#CCFBF1"/>
+    <text x="36" y="748" fill="#0D9488" font-size="10" font-weight="800">Home</text>
+    <text x="115" y="748" fill="#94A3B8" font-size="10">Caregivers</text>
+    <text x="210" y="748" fill="#94A3B8" font-size="10">Vitals</text>
+    <text x="290" y="748" fill="#94A3B8" font-size="10">Labs</text>
+  </g>
+
+  <!-- SCREEN 2: CAREGIVER BOOKING (X: 450, Y: 110, W: 360, H: 760) -->
+  <g id="Screen_2_Caregiver_Booking" transform="translate(450, 110)">
+    <rect width="360" height="760" rx="32" fill="#F8FAFC" stroke="#334155" stroke-width="4"/>
+    
+    <!-- Status Bar -->
+    <text x="24" y="32" fill="#0F172A" font-size="12" font-weight="600">09:41</text>
+    
+    <!-- Header -->
+    <text x="20" y="65" fill="#0F172A" font-size="16" font-weight="800">Book Verified Caregiver</text>
+    <text x="250" y="65" fill="#0D9488" font-size="11" font-weight="700">Bengaluru</text>
+
+    <!-- Filter Pills -->
+    <rect x="20" y="85" width="320" height="34" rx="10" fill="#E2E8F0"/>
+    <rect x="23" y="88" width="102" height="28" rx="8" fill="#FFFFFF"/>
+    <text x="35" y="106" fill="#0F172A" font-size="11" font-weight="800">Home Nurse (RN)</text>
+    <text x="145" y="106" fill="#64748B" font-size="11" font-weight="600">Attendant</text>
+    <text x="250" y="106" fill="#64748B" font-size="11" font-weight="600">Physiotherapist</text>
+
+    <!-- Caregiver Card 1 -->
+    <rect x="20" y="132" width="320" height="150" rx="16" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <circle cx="48" cy="168" r="22" fill="#0D9488"/>
+    <text x="40" y="173" fill="#FFFFFF" font-size="13" font-weight="800">SJ</text>
+
+    <text x="80" y="160" fill="#0F172A" font-size="14" font-weight="800">Sarah Jenkins</text>
+    <rect x="180" y="148" width="55" height="16" rx="4" fill="#CCFBF1"/>
+    <text x="186" y="160" fill="#0F766E" font-size="9" font-weight="800">VERIFIED</text>
+
+    <text x="80" y="176" fill="#64748B" font-size="11">ICU &amp; Cardiac Care Specialist</text>
+    <text x="80" y="192" fill="#94A3B8" font-size="10">8+ Yrs Exp • Speaks EN, KN, HI</text>
+
+    <line x1="32" y1="215" x2="328" y2="215" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="32" y="242" fill="#0F172A" font-size="16" font-weight="900">₹800 <tspan fill="#64748B" font-size="11" font-weight="400">/ 12 hr shift</tspan></text>
+
+    <rect x="210" y="222" width="118" height="34" rx="10" fill="#0D9488"/>
+    <text x="228" y="243" fill="#FFFFFF" font-size="11" font-weight="800">Select Schedule</text>
+
+    <!-- Caregiver Card 2 -->
+    <rect x="20" y="295" width="320" height="150" rx="16" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+    <circle cx="48" cy="331" r="22" fill="#059669"/>
+    <text x="40" y="336" fill="#FFFFFF" font-size="13" font-weight="800">RK</text>
+
+    <text x="80" y="323" fill="#0F172A" font-size="14" font-weight="800">Rajesh Kumar</text>
+    <rect x="180" y="311" width="55" height="16" rx="4" fill="#CCFBF1"/>
+    <text x="186" y="323" fill="#0F766E" font-size="9" font-weight="800">VERIFIED</text>
+
+    <text x="80" y="339" fill="#64748B" font-size="11">Mobility &amp; Post-Op Attendant</text>
+    <text x="80" y="355" fill="#94A3B8" font-size="10">5+ Yrs Exp • 24/7 Shift Available</text>
+
+    <line x1="32" y1="378" x2="328" y2="378" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="32" y="405" fill="#0F172A" font-size="16" font-weight="900">₹650 <tspan fill="#64748B" font-size="11" font-weight="400">/ 12 hr shift</tspan></text>
+
+    <rect x="210" y="385" width="118" height="34" rx="10" fill="#0D9488"/>
+    <text x="228" y="406" fill="#FFFFFF" font-size="11" font-weight="800">Select Schedule</text>
+  </g>
+
+  <!-- SCREEN 3: VITALS TRACKER (X: 850, Y: 110, W: 360, H: 760) -->
+  <g id="Screen_3_Vitals_Tracker" transform="translate(850, 110)">
+    <rect width="360" height="760" rx="32" fill="#0F172A" stroke="#334155" stroke-width="4"/>
+    
+    <!-- Status Bar -->
+    <text x="24" y="32" fill="#FFFFFF" font-size="12" font-weight="600">09:41</text>
+    
+    <!-- Header -->
+    <text x="20" y="65" fill="#FFFFFF" font-size="16" font-weight="800">Vitals Tracker (Dark Mode)</text>
+    <rect x="235" y="52" width="105" height="20" rx="10" fill="#059669" fill-opacity="0.2" stroke="#059669"/>
+    <text x="245" y="66" fill="#34D399" font-size="10" font-weight="800">✓ Vitals Normal</text>
+
+    <!-- Grid Metric Cards -->
+    <rect x="20" y="90" width="152" height="75" rx="14" fill="#1E293B" stroke="#334155"/>
+    <text x="32" y="110" fill="#94A3B8" font-size="10" font-weight="600">Blood Pressure</text>
+    <text x="32" y="132" fill="#FFFFFF" font-size="16" font-weight="900">120/80 <tspan fill="#94A3B8" font-size="10">mmHg</tspan></text>
+    <text x="32" y="148" fill="#34D399" font-size="9" font-weight="700">Optimal Range</text>
+
+    <rect x="188" y="90" width="152" height="75" rx="14" fill="#1E293B" stroke="#334155"/>
+    <text x="200" y="110" fill="#94A3B8" font-size="10" font-weight="600">Oxygen (SpO2)</text>
+    <text x="200" y="132" fill="#FFFFFF" font-size="16" font-weight="900">98%</text>
+    <text x="200" y="148" fill="#34D399" font-size="9" font-weight="700">Normal Oxygen</text>
+
+    <rect x="20" y="175" width="152" height="75" rx="14" fill="#1E293B" stroke="#334155"/>
+    <text x="32" y="195" fill="#94A3B8" font-size="10" font-weight="600">Heart Rate</text>
+    <text x="32" y="217" fill="#FFFFFF" font-size="16" font-weight="900">74 <tspan fill="#94A3B8" font-size="10">BPM</tspan></text>
+    <text x="32" y="233" fill="#34D399" font-size="9" font-weight="700">Resting Pulse</text>
+
+    <rect x="188" y="175" width="152" height="75" rx="14" fill="#1E293B" stroke="#334155"/>
+    <text x="200" y="195" fill="#94A3B8" font-size="10" font-weight="600">Blood Glucose</text>
+    <text x="200" y="217" fill="#FFFFFF" font-size="16" font-weight="900">105 <tspan fill="#94A3B8" font-size="10">mg/dL</tspan></text>
+    <text x="200" y="233" fill="#34D399" font-size="9" font-weight="700">Fasting Normal</text>
+
+    <!-- Chart Box -->
+    <rect x="20" y="265" width="320" height="150" rx="16" fill="#1E293B" stroke="#334155"/>
+    <text x="32" y="288" fill="#FFFFFF" font-size="12" font-weight="800">24-Hour Heart Rate Trend</text>
+    <text x="240" y="288" fill="#94A3B8" font-size="10">Avg 73 BPM</text>
+
+    <!-- Chart Path -->
+    <path d="M32 370 Q 100 320, 180 350 T 260 310 T 320 340 L 320 395 L 32 395 Z" fill="url(#chartGrad)"/>
+    <path d="M32 370 Q 100 320, 180 350 T 260 310 T 320 340" stroke="#0D9488" stroke-width="3" fill="none"/>
+
+    <!-- Chart Dots -->
+    <circle cx="180" cy="350" r="4" fill="#2DD4BF"/>
+    <circle cx="260" cy="310" r="4" fill="#2DD4BF"/>
+  </g>
+
+  <!-- DESIGN SYSTEM SWATCHES BOARD (X: 1250, Y: 110, W: 300, H: 760) -->
+  <g id="Design_System_Tokens" transform="translate(1250, 110)">
+    <rect width="300" height="760" rx="20" fill="#1E293B" stroke="#334155"/>
+    <text x="20" y="40" fill="#FFFFFF" font-size="16" font-weight="800">Figma Design Tokens</text>
+    
+    <!-- Color Swatches -->
+    <text x="20" y="70" fill="#94A3B8" font-size="11" font-weight="700">COLOR PALETTE</text>
+
+    <rect x="20" y="85" width="40" height="40" rx="8" fill="#0D9488"/>
+    <text x="70" y="102" fill="#FFFFFF" font-size="12" font-weight="700">Teal Primary</text>
+    <text x="70" y="117" fill="#94A3B8" font-size="10">#0D9488</text>
+
+    <rect x="20" y="135" width="40" height="40" rx="8" fill="#059669"/>
+    <text x="70" y="152" fill="#FFFFFF" font-size="12" font-weight="700">Emerald Health</text>
+    <text x="70" y="167" fill="#94A3B8" font-size="10">#059669</text>
+
+    <rect x="20" y="185" width="40" height="40" rx="8" fill="#EF4444"/>
+    <text x="70" y="202" fill="#FFFFFF" font-size="12" font-weight="700">Emergency Red</text>
+    <text x="70" y="217" fill="#94A3B8" font-size="10">#EF4444</text>
+
+    <rect x="20" y="235" width="40" height="40" rx="8" fill="#F8FAFC"/>
+    <text x="70" y="252" fill="#FFFFFF" font-size="12" font-weight="700">Surface Light</text>
+    <text x="70" y="267" fill="#94A3B8" font-size="10">#F8FAFC</text>
+
+    <rect x="20" y="285" width="40" height="40" rx="8" fill="#0F172A"/>
+    <text x="70" y="302" fill="#FFFFFF" font-size="12" font-weight="700">Slate Dark</text>
+    <text x="70" y="317" fill="#94A3B8" font-size="10">#0F172A</text>
+
+    <!-- Typography Scale -->
+    <text x="20" y="360" fill="#94A3B8" font-size="11" font-weight="700">TYPOGRAPHY HIERARCHY</text>
+    <text x="20" y="388" fill="#FFFFFF" font-size="18" font-weight="800">Display (22px Bold)</text>
+    <text x="20" y="415" fill="#FFFFFF" font-size="14" font-weight="700">Header Title (16px Semi)</text>
+    <text x="20" y="440" fill="#CBD5E1" font-size="12">Body Text (14px Regular)</text>
+    <text x="20" y="462" fill="#0D9488" font-size="10" font-weight="800">MICRO BADGE (10px CAPS)</text>
+  </g>
+</svg>
